@@ -62,7 +62,7 @@ This repository contains resources and references for our survey paper:
 | [Diabetes 130-US<br>Hospitals (1999-2008)](https://www.kaggle.com/datasets/brandao/diabetes) | Txt | Classification | 101,766<br>patient records | Open | English |
 | [CLIP](https://physionet.org/content/mimic-iii-clinical-action/1.0.0/) | Txt | Multi-aspect extractive<br>summarization | 718 discharge | Free-Form | English |
 | [Med-QuAD](https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-ai-research) | Txt | QA | ~47K QA pairs | Open | English |
-| [MedQA]((https://github.com/jind11/MedQA)) | Txt | QA | 61,097 questions | MC-QA | EN & CN |
+| [MedQA](https://github.com/jind11/MedQA) | Txt | QA | 61,097 questions | MC-QA | EN & CN |
 | [MedMCQA](https://huggingface.co/datasets/openlifescienceai/medmcqa) | Txt | QA | ~194K questions | MC-QA | English |
 | [PubMedQA](https://huggingface.co/datasets/qiaojin/PubMedQA) | Txt | QA | 211.3k QA pairs | Open | English |
 | [MultiMedQA](https://huggingface.co/collections/openlifescienceai/multimedqa-66098a5b280539974cefe485) | Txt | QA | ~208k QA pairs | MC-QA | English |
@@ -193,7 +193,7 @@ This repository contains resources and references for our survey paper:
 
 - [Med-RAX (2025)](https://bowang-lab.github.io/MedRAX/) - MedRAX is a unified AI agent for versatile chest X-ray (CXR) interpretation, designed to bridge the gap between specialized models and real-world clinical workflows.
 
-- [SeM-Agents (2025)](https://arxiv.org/abs/2506.16650) - SemAgent is a workflow-based Large Language Model (LLM) framework designed to improve Automated Program Repair (APR) by incorporating deep semantic understanding of issues, code, and execution.
+- [SeM-Agents (2025)](https://arxiv.org/abs/2506.16650) - SeM-Agents is a workflow-based Large Language Model (LLM) framework designed to improve Automated Program Repair (APR) by incorporating deep semantic understanding of issues, code, and execution.
 
 - [HiRMed (2025)](https://arxiv.org/abs/2501.02727) - HiRMed (Hierarchical RAG-enhanced Medical Test Recommendation) is an intelligent medical test recommendation system that integrates Retrieval-Augmented Generation (RAG) with a tree-structured reasoning framework to improve diagnostic guidance.
 
