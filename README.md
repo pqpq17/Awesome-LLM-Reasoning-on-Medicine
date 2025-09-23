@@ -1,15 +1,46 @@
-# Awesome-LLM-Reasoning-on-Medicine
+# 🚀 Awesome-LLM-Reasoning-on-Medicine 
 
 ![logo](src/levels.png)
+
+# 🔔 News
+
+- ✨ [2025-09-23] The repository is created to maintain the resources for our paper. 
+
+- 🍺 [2025-09-15] Our survey is released on TechRxiv: [Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning](https://www.techrxiv.org/doi/full/10.36227/techrxiv.175790907.73315176/v1)
+
+
+# 🌟 About This Repo
+Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This survey examines recent progress in medical LLMs, focusing on reasoning applications and requirements. We present a dual-view approach that connects clinical practice with computational methods. On the clinical side, we establish a five-level competency scheme following Miller's Pyramid, progressing from knowledge recall to dynamic case management. On the computational side, we link deductive, inductive, and abductive reasoning patterns to common medical goals and tasks. We also introduce a benchmark dataset spanning five levels of medical reasoning capability and report results on 18 state-of-the-art models, revealing that medical specialist models excel in diagnosis-centric tasks while general models lead in decision support and dialogue. We conclude by discussing current progress and open challenges, including data limitations, hallucination, and grounding issues, and outline directions toward safer, more reliable, and workflow-ready systems.
+
+
 This repository contains resources and references for our survey paper: 
 
-[Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning](https://www.techrxiv.org/doi/full/10.36227/techrxiv.175790907.73315176/v1)
+🔥 [Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning](https://www.techrxiv.org/doi/full/10.36227/techrxiv.175790907.73315176/v1)
 
-## Overview
+We will update the repository and our paper. Welcome to discuss and contribute!
 
-- [`Awesome-LLM Reasoning on Medicine`](#Awesome-LLM-Reasoning-on-Medicine)
-  - [Dataset Resource](#dataset-resource)
-  - [Model List](#model-list)
+### 📝 Citation
+
+```python
+@article{Peng_2025,
+  title={Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning},
+  url={http://dx.doi.org/10.36227/techrxiv.175790907.73315176/v1},
+  DOI={10.36227/techrxiv.175790907.73315176/v1},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Peng, Qi and Li, Jiatong and Huang, Sirui and Jiang, Yiyang and Gong, Kaisong and Ding, Ronger and Ye, Shijie and Zheng, Changmeng and Wei, Xiao-Yong and Li, Qing},
+  year={2025},
+  month=sep
+}
+```
+
+
+## 📖 Overview
+
+- [🚀 Awesome-LLM Reasoning on Medicine](#Awesome-LLM-Reasoning-on-Medicine)
+  - [🔔 News](#-news)
+  - [ 🌟 About This Repo](#about-this-repo)
+  - [ 📚 Dataset Resource](#dataset-resource)
+  - [🤖 Model List](#model-list)
     - [CoT](#cot)
     - [Long CoT](#long-cot)
     - [Search](#search)
@@ -17,7 +48,7 @@ This repository contains resources and references for our survey paper:
     - [RAG](#rag)
     - [Agent](#agent)
 
-## Dataset Resource
+## 📚 Dataset Resource
 
 |  Dataset   |  Modality   |  Task Type  |   Number of Samples |  Answer Form   |   Language  |
 | :--------: |  :-------:  |   :---:     |  :-------------:    |  :------:      | :------:    |
@@ -81,9 +112,17 @@ This repository contains resources and references for our survey paper:
 
 ---
 
-## Model-List
+## 🤖 Model-List
 
 ### CoT
+- [GPT-oss (2025)](https://openai.com/zh-Hant/index/introducing-gpt-oss/) - an open-source large language model designed for flexible deployment, community-driven improvement, and accessible AI innovation.
+
+- [Qwen3 (2025)](https://arxiv.org/abs/2505.09388) - a next-generation open-source LLM family (0.6–235B, dense & MoE) featuring unified reasoning/response modes with adaptive thinking budgets, state-of-the-art performance, and expanded multilingual support across 119 languages.
+
+- [Deepseek-V3 (2025)](https://arxiv.org/html/2412.19437v1) - a 671B-parameter MoE language model (37B active per token) featuring MLA and DeepSeekMoE architectures, auxiliary-loss-free load balancing, and multi-token prediction, delivering state-of-the-art performance with highly efficient and stable training.
+
+- [Kimi-k2 (2025)](https://arxiv.org/abs/2507.20534) - a 1T-parameter MoE LLM (32B active) trained with the MuonClip optimizer for stability and efficiency, achieving state-of-the-art performance among open-source non-thinking models, with exceptional strengths in coding, mathematics, reasoning, and agentic tasks.
+
 - [Med-REFL (2025)](https://arxiv.org/abs/2506.13793) - a self-corrected reflection framework for enhancing medical reasoning in large language models.
 
 - [ChestX-Reasoner (2025)](https://arxiv.org/abs/2504.20930) - a radiology diagnosis multimodal LLM trained with process supervision from clinical reports and evaluated on a new benchmark with reasoning-focused metrics.
@@ -109,9 +148,17 @@ This repository contains resources and references for our survey paper:
 
 - [DeepSeek-R1 (2025)](https://arxiv.org/abs/2501.12948) - DeepSeek-R1-Zero and DeepSeek-R1 are open-source reasoning models trained with large-scale reinforcement learning, demonstrating strong emergent reasoning behaviors and competitive performance with state-of-the-art systems.
 
+- [MedicalGPT (2024)](https://github.com/shibing624/MedicalGPT) - MedicalGPT training medical GPT model with ChatGPT training pipeline, implemantation of Pretraining, Supervised Finetuning, RLHF(Reward Modeling and Reinforcement Learning) and DPO(Direct Preference Optimization).
+
 - [HuatuoGPT-o1 (2024)](https://arxiv.org/abs/2412.18925) - a medical LLM trained with a verifier-guided two-stage pipeline—verifier-guided search for fine-tuning followed by verifier-based reinforcement learning on verifiable medical problems—to substantially improve complex medical reasoning.
 
 - [o1 (2024)](https://arxiv.org/abs/2412.16720) - o1 is a family of OpenAI models centered on enhanced complex reasoning, demonstrating that improved reasoning mechanisms—such as stronger chain-of-thought and search strategies—can significantly boost LLM performance on challenging reasoning tasks.
+
+- [Mistral (2023)](https://arxiv.org/abs/2310.06825) - a 7B-parameter LLM with grouped-query and sliding window attention, delivering superior efficiency and performance over larger Llama models, with both base and instruction-tuned versions released under Apache 2.0.
+
+- [BioGPT (2023)](https://arxiv.org/abs/2210.10341) - a domain-specific generative Transformer pre-trained on large-scale biomedical literature, achieving state-of-the-art results across multiple biomedical NLP tasks and enabling fluent generation for biomedical text understanding and reasoning.
+
+- [HuatuoGPT (2023)](https://arxiv.org/abs/2305.15075) - a medical consultation LLM trained with both ChatGPT-distilled and real-world doctor data, aligned via RLAIF, achieving state-of-the-art performance among open-source models and surpassing its teacher ChatGPT in most evaluations.
 
 - [Med-PaLM 2 (2023)](https://arxiv.org/abs/2305.09617) - Med-PaLM 2 is a medical large language model that combines PaLM 2 improvements, medical domain finetuning, and ensemble refinement strategies to achieve state-of-the-art performance on multiple benchmarks and approach physician-level quality in medical question answering.
 
