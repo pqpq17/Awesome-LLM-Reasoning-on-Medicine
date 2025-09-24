@@ -1,3 +1,21 @@
+<h1 align = "center">
+<img src="src/titlelogo.jpg" alt="icon" style="width:35px; vertical-align:middle;" />
+<em>Aligning Clinical Needs and AI Capabilities</em>:  A Survey on LLMs for Medical Reasoning
+</h1>
+
+<div align="center">
+Qi Peng<sup>13</sup>, Jiatong Li<sup>1</sup>, Sirui Huang<sup>1</sup>, Yiyang Jiang<sup>1</sup>, Kaisong Gong<sup>2</sup>, Ronger Ding<sup>3</sup>, Shijie Ye<sup>4</sup>, 
+
+Changmeng Zheng<sup>1</sup>, Xiao-Yong Wei<sup>1</sup>, Qing Li<sup>1</sup>
+<br><br>
+<sup>1</sup>Hong Kong Polytechnic University,
+<sup>2</sup>Hong Kong University,
+<sup>3</sup>South China University of  Technology,
+<sup>4</sup>University of Toronto
+
+<a href='https://arxiv.org/abs/2502.09838'><img src='https://img.shields.io/badge/Paper-TechRivx-red'></a> 
+</div>
+
 # 🚀 Awesome-LLM-Reasoning-on-Medicine 
 
 ![logo](src/levels.png)
