@@ -13,7 +13,7 @@ Changmeng Zheng<sup>1</sup>, Xiao-Yong Wei<sup>1</sup>, Qing Li<sup>1</sup>
 <sup>3</sup>South China University of  Technology,
 <sup>4</sup>University of Toronto
 
-<a href='https://arxiv.org/abs/2502.09838'><img src='https://img.shields.io/badge/Paper-TechRivx-red'></a> 
+<a href='https://www.techrxiv.org/doi/full/10.36227/techrxiv.175790907.73315176/v1'><img src='https://img.shields.io/badge/Paper-TechRxiv-red'></a> 
 </div>
 
 # 🚀 Awesome-LLM-Reasoning-on-Medicine 
