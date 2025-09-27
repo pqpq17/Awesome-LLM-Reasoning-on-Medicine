@@ -8,8 +8,8 @@ Qi Peng<sup>13</sup>, Jiatong Li<sup>1</sup>, Sirui Huang<sup>1</sup>, Yiyang Ji
 
 Changmeng Zheng<sup>1</sup>, Xiao-Yong Wei<sup>1</sup>, Qing Li<sup>1</sup>
 <br><br>
-<sup>1</sup>Hong Kong Polytechnic University,
-<sup>2</sup>Hong Kong University,
+<sup>1</sup>The Hong Kong Polytechnic University,
+<sup>2</sup>The University of Hong Kong,
 <sup>3</sup>South China University of  Technology,
 <sup>4</sup>University of Toronto
 
@@ -125,6 +125,8 @@ We will update the repository and our paper. Welcome to discuss and contribute!
 | [MedDec](https://physionet.org/content/meddec/1.0.0/) | Txt | Medical Decision<br>Extraction | 451 discharge<br>summaries | Free-Form | English |
 | [2012 i2b2 Temporal<br>Relations Dataset](https://www.i2b2.org/NLP/TemporalRelations/) | Txt | Extraction | - | Free-Form | English |
 | [DiSCQ](https://physionet.org/content/discq/1.0/) | Txt | QA | 2K+ questions | Free-Form | English |
+| [Open-XDDx](https://github.com/betterzhou/Dual-Inf) | Txt | Diagnostic Reasoning | 570 clinical notes | Open | English |
+| [MedThink-Bench](https://github.com/plusnli/MedThink-Bench) | Txt | QA | 500 QA pairs | MC-QA | English |
 
 
 
